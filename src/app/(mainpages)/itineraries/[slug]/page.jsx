@@ -50,7 +50,7 @@ export default function Itineraries({ params }) {
       />
       <StickyHeader />
       <Highlight highlights={selectedItinerary.highlights} />
-      {/* <Itinerary /> */}
+      <Itinerary />
       <Gallery />
       <Prices priceDetails={selectedItinerary.pricing} />
       <EnquireNow

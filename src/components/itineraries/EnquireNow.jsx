@@ -11,7 +11,6 @@ const EnquireNow = ({ title, heroImg }) => {
               <Image
                 fill
                 priority
-                // src="https://cdn.prod.website-files.com/607e99bffc9a6042b332722c/66192c8cfe0b62f0b3765fb4_65b3a4744c8cd6786dd6d8d0_sunset-water-villa-with-pool-outdoor.webp"
                 src={heroImg}
                 alt={title}
                 className="object-cover"
@@ -30,7 +29,7 @@ const EnquireNow = ({ title, heroImg }) => {
               </p>
               <div className="mt-12 grid gap-4 lg:w-fit">
                 <Link
-                  href="https://wa.me/447574836967"
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                   className="primary-btn is-biege"
@@ -38,7 +37,7 @@ const EnquireNow = ({ title, heroImg }) => {
                   Call us
                 </Link>
                 <Link
-                  href="https://wa.me/447574836967"
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                   className="primary-btn is-dark-ghost"

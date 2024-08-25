@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import {
   FaInstagram,
@@ -13,15 +12,8 @@ const Footer = () => {
   return (
     <footer className="flex flex-col bg-black pb-16 pt-28 text-xs uppercase text-white">
       <div className="mb-20 flex justify-center text-center">
-        <Link href="/" aria-label="RibbonsXP Home">
-          {/* <Image
-            width={300}
-            height={300}
-            src="/images/ribbonsxp-wh.svg"
-            alt="RibbonsXP logo"
-            className="object-cover w-56"
-          /> */}
-          <h2 className="text-fs-xl">AFCON 2025/2026</h2>
+        <Link href="/" aria-label="Abdul Tour">
+          <h2 className="text-fs-xl">Abdul Tour</h2>
         </Link>
       </div>
 
@@ -93,23 +85,20 @@ const Footer = () => {
           <div className="flex flex-col items-center py-9">
             <span>Call us</span>
             <Link
-              href="https://wa.me/447574836967"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className="footer_navlink mt-1 text-paragraph"
             >
-              +44 7574 836967
+              +234 071 548 680
             </Link>
           </div>
 
           <div className="is-hidden-mobile line-separator-vertical"></div>
           <div className="flex flex-col items-center py-9">
             <span>Email Us</span>
-            <Link
-              href="mailto:hello@afconpackages.com"
-              className="footer_navlink mt-1 text-paragraph"
-            >
-              hello@afconpackages.com
+            <Link href="" className="footer_navlink mt-1 text-paragraph">
+              hello@theabdul
             </Link>
           </div>
         </div>
@@ -120,52 +109,31 @@ const Footer = () => {
       <div className="wrapper">
         <div className="flex w-full flex-col items-center pt-8">
           <div className="flex justify-center gap-4">
-            <Link
-              href="https://www.facebook.com/ribbonsxperience"
-              target="_blank"
-              aria-label="Facebook"
-              className="p-4"
-            >
+            <Link href="" target="_blank" aria-label="Facebook" className="p-4">
               <FaSquareFacebook size={16} />
             </Link>
-            <Link
-              href="https://twitter.com/ribbonsxp"
-              target="_blank"
-              aria-label="Twitter"
-              className="p-4"
-            >
+            <Link href="" target="_blank" aria-label="Twitter" className="p-4">
               <FaXTwitter size={16} />
             </Link>
             <Link
-              href="https://www.instagram.com/ribbonsxp/"
+              href=""
               target="_blank"
               aria-label="Instagram"
               className="p-4"
             >
               <FaInstagram size={16} />
             </Link>
-            <Link
-              href="https://www.linkedin.com/company/ribbonsxp"
-              target="_blank"
-              aria-label="LinkedIn"
-              className="p-4"
-            >
+            <Link href="" target="_blank" aria-label="LinkedIn" className="p-4">
               <FaLinkedin size={16} />
             </Link>
           </div>
 
           <div className="my-6 grid gap-x-6 gap-y-4 text-center lg:grid-flow-col">
-            <Link
-              href="https://ribbonsxp.com/terms-and-conditions"
-              className="footer_navlink"
-            >
+            <Link href="" className="footer_navlink">
               Terms & Conditions
             </Link>
-            <div>© copyright @RibbonsXP. All rights Reserved</div>
-            <Link
-              href="https://ribbonsxp.com/privacy-policy"
-              className="footer_navlink"
-            >
+            <div>© copyright @TheAbdul. All rights Reserved</div>
+            <Link href="" className="footer_navlink">
               Privacy Policy
             </Link>
           </div>

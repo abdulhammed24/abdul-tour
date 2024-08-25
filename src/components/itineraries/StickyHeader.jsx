@@ -4,9 +4,8 @@ import { motion } from "framer-motion";
 
 const sections = [
   { label: "Overview", id: "Overview" },
-  // { label: "Itinerary", id: "Itinerary" },
+  { label: "Itinerary", id: "Itinerary" },
   { label: "Gallery", id: "Gallery" },
-  // { label: "When to go", id: "When-to-go" },
   { label: "Prices", id: "Prices" },
 ];
 
@@ -30,7 +29,6 @@ const StickyHeaderButton = ({ label, id }) => (
 const StickyHeader = () => {
   return (
     <section className="sticky top-16 z-40 w-full flex-wrap items-center justify-center overflow-hidden bg-white py-4">
-      {/* <section className="overflow-hidden sticky top-0 min-h-20 py-4 w-full items-center justify-center flex-wrap bg-white z-40"> */}
       <div className="absolute inset-[auto_0%_0%] flex flex-1 flex-col items-center justify-center">
         <div className="line-separator-horizontal"></div>
       </div>

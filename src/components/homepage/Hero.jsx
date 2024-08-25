@@ -1,4 +1,5 @@
 import { Phone, Star } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 const items = [
@@ -28,14 +29,14 @@ const Hero = () => {
               </div>
               <div className="relative z-[1] justify-self-end">
                 <Link
-                  href="https://wa.me/447574836967"
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-end gap-x-2 text-xs uppercase text-white"
                 >
                   <div>Speak to our experts</div>
                   <Phone size={20} fill="white" />
-                  <div>+44 7574 836967</div>
+                  <div>+234 071 548 680</div>
                 </Link>
               </div>
             </div>
@@ -50,7 +51,7 @@ const Hero = () => {
           <div className="wrapper">
             <div className="relative overflow-hidden">
               <h1 className="overflow-visible text-fs-xl leading-[130%]">
-                AFCON Travel Packages 2025/2026
+                Abdul Tour
               </h1>
             </div>
           </div>
@@ -102,20 +103,14 @@ const Hero = () => {
       <div className="relative z-[1] h-[100vh] w-full overflow-hidden brightness-[90%]">
         <div className="h-full">
           <div className="relative z-[1] h-[100vh] w-full overflow-hidden brightness-[90%]">
-            <video
-              width="100%"
-              muted
-              autoPlay
-              playsInline
-              loop
-              className="absolute left-0 top-0 h-full w-full object-cover"
-            >
-              <source
-                id="video-source"
-                src="https://player.vimeo.com/progressive_redirect/playback/849023807/rendition/1080p/file.mp4?loc=external&signature=caf518854970a4daf6ba73ccae7dc30a17bcd2b8f6528c9768d300b314c0b27f"
-                type="video/mp4"
-              />
-            </video>
+            <Image
+              src="/images/hero.png"
+              alt="hero tour"
+              className="object-cover"
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              priority
+            />
           </div>
         </div>
       </div>

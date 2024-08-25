@@ -28,12 +28,6 @@ const Hero = ({ title, location, description, heroImg }) => {
 
                   <div className="text-paragraph">{location}</div>
                 </div>
-                {/* <div className="flex flex-col items-start justify-center gap-1">
-                  <div className="text-xs uppercase text-gray-600">
-                    duration
-                  </div>
-                  <div className="text-paragraph">Pricing upon request</div>
-                </div> */}
               </div>
               <div className="line-separator-horizontal"></div>
               <p className="lg:pr-6">{description}</p>
@@ -44,7 +38,6 @@ const Hero = ({ title, location, description, heroImg }) => {
           <div className="relative max-lg:pt-[60%]">
             <div className="absolute inset-0 flex h-full w-full items-end justify-start lg:inset-[0%_0%_0%_1.5rem] lg:w-[50vw]">
               <Image
-                // src="https://cdn.prod.website-files.com/607e99bffc9a6042b332722c/66192c8cfe0b62f0b3765fb4_65b3a4744c8cd6786dd6d8d0_sunset-water-villa-with-pool-outdoor.webp"
                 src={heroImg}
                 alt={title}
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -55,8 +48,7 @@ const Hero = ({ title, location, description, heroImg }) => {
               <div className="absolute inset-[auto_auto_0%_0%] m-5 flex items-center gap-2 rounded-lg bg-black bg-opacity-50 p-2 text-white">
                 <CircleDot size={10} color="#ffffff" strokeWidth={5} />
 
-                {/* <div>Joali</div> */}
-                <div>AFCON 2025/2026</div>
+                <div>Abdul Tour</div>
               </div>
             </div>
           </div>

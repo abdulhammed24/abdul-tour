@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Page Not Found | RibbonsXP - AFCON 2025 Tour Packages",
-  description: `The page you're looking for could not be found. Explore our AFCON 2025 tour packages, hospitality offers, and more for an unforgettable experience in Morocco.`,
+  title: "Page Not Found | Explore Abdul Tour: Buy Your Tickets Now",
+  description: `The page you're looking for could not be found. Explore our Abdul Tour packages, hospitality offers, and more for an unforgettable experience in Morocco.`,
 };
 
 const Custom404 = () => {

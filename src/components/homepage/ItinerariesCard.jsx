@@ -17,7 +17,7 @@ const ItinerariesCard = ({ itinerary }) => {
           priority
         />
         <div className="absolute inset-[101%_-1px_auto_auto] z-[1] origin-[100%_0] rotate-90 bg-[#faf1ee] px-4 py-2 text-black">
-          <div className="relative top-[1] text-xs uppercase">Package</div>
+          <div className="relative top-[1] text-xs uppercase">Itinerary</div>
         </div>
       </Link>
       <div className="flex size-auto flex-col items-start">
